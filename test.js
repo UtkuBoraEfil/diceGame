@@ -29,9 +29,9 @@ function play() {
 
   const heading = document.querySelector("h1");
 
-  const randomImage1 = `/images/dice${randomNumber1}.png`;
+  const randomImage1 = `./images/dice${randomNumber1}.png`;
   const image1 = document.querySelector(".img1");
-  const randomImage2 = `/images/dice${randomNumber2}.png`;
+  const randomImage2 = `./images/dice${randomNumber2}.png`;
   const image2 = document.querySelector(".img2");
 
   image1.setAttribute("src", randomImage1);
